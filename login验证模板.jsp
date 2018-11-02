@@ -45,10 +45,11 @@
             $.ajax({
                         url:"/hrms/dologin",
                         type:"POST",
-                        //使用JSON格式传递数据不知道怎么写
-                        // data:{
-                        //     "username": $("username").val(),
-                        //     "password":$("pwd").val()},
+                        //使用JSON格式传递数据这么写
+                         data:{
+                             'username': $("#username").val(),
+                             'password':$("#pwd").val()
+                         },
 
                          //将匹配的DOM元素装换成能够随Ajax请求传递的查询字符串，这种方式比较方便
                         data:$("#login_form").serialize(),//将表单数据一次性传递
