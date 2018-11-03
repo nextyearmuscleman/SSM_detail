@@ -1,3 +1,5 @@
+#登录模板使用了bootstrap
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -67,4 +69,5 @@
 </script>
 </body>
 </html>
+
 登录样式![](https://github.com/nextyearmuscleman/SSM_detail/raw/master/picture/%E7%99%BB%E5%BD%95%E6%95%88%E6%9E%9C%E5%9B%BE.PNG)
