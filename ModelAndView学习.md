@@ -54,6 +54,6 @@ public class Login {
        </c:forEach>  
     </body>  
  ```
- 返回的结果:
+ 返回的结果:<br>
  ![](https://github.com/nextyearmuscleman/SSM_detail/raw/master/picture/ModelAndView.PNG)
  
